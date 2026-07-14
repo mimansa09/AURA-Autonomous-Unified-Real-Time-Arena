@@ -75,8 +75,4 @@ From an idea → to a 3D stadium experience → to deployment, building AURA was
 
 
 
-PromptWars banner (this one)
-AURA stadium homepage screenshot
-AI agents/command center screenshot
 
-That order will tell the story visually: challenge → solution → execution ⚽✨
