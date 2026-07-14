@@ -72,7 +72,7 @@ From an idea → to a 3D stadium experience → to deployment, building AURA was
 
 💻 GitHub: https://github.com/mimansa09/AURA-Autonomous-Unified-Real-Time-Arena.git
 
-![Uploading image.png…]()
+
 
 
 PromptWars banner (this one)
