@@ -70,7 +70,7 @@ From an idea → to a 3D stadium experience → to deployment, building AURA was
 
 🌐 Live Demo: https://aura-liard-beta.vercel.app/
 
-💻 GitHub: https://github.com/mimansa2005/AURA-Autonomous-Unified-Real-Time-Arena
+💻 GitHub: https://github.com/mimansa09/AURA-Autonomous-Unified-Real-Time-Arena.git
 
 #PromptWars #GoogleAntigravity #GenerativeAI #GeminiAI #ArtificialIntelligence #ReactJS #ThreeJS #Hackathon #WomenInTech #BuildInPublic
 
