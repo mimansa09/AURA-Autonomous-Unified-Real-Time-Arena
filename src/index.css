@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+  body {
+    @apply bg-fifa-dark text-white font-sans overflow-x-hidden selection:bg-fifa-blue selection:text-white;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #030712;
+}
+::-webkit-scrollbar-thumb {
+  background: #162e5c;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0055ff;
+}
+
+/* Football UI Utilities */
+.glass-panel {
+  background: rgba(12, 29, 60, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-heavy {
+  background: rgba(8, 18, 41, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.ticket-cut {
+  clip-path: polygon(
+    0% 0%, 
+    100% 0%, 
+    100% calc(70% - 10px), 
+    97% calc(70% - 10px), 
+    95% 70%, 
+    97% calc(70% + 10px), 
+    100% calc(70% + 10px), 
+    100% 100%, 
+    0% 100%, 
+    0% calc(70% + 10px), 
+    3% calc(70% + 10px), 
+    5% 70%, 
+    3% calc(70% - 10px), 
+    0% calc(70% - 10px)
+  );
+}
+
+/* EA Sports Broadcast Scanlines */
+.scanlines {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.15) 50%
+  ), linear-gradient(
+    90deg, 
+    rgba(255, 0, 0, 0.02), 
+    rgba(0, 255, 0, 0.01), 
+    rgba(0, 0, 255, 0.02)
+  );
+  background-size: 100% 4px, 6px 100%;
+}
+
+.fifa-skew {
+  transform: skewX(-6deg);
+}
+
+.fifa-skew-inner {
+  transform: skewX(6deg);
+}
+
+@keyframes pitch-glow {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.6; }
+}
+
+.pitch-light-glow {
+  animation: pitch-glow 4s ease-in-out infinite;
+}
