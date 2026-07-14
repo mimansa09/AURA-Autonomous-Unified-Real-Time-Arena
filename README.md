@@ -1,16 +1,83 @@
-# React + Vite
+🚀 Building for PromptWars: Virtual — GenAI Innovation Hackathon ⚡
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Excited to share my project AURA ✨ (Autonomous Unified Real-time Arena), built for PromptWars: Virtual — Build, Deploy & Win from Anywhere, a hackathon focused on leveraging Google Antigravity and Generative AI to create functional, real-world applications.
 
-Currently, two official plugins are available:
+I worked on Challenge 4: Smart Stadiums & Tournament Operations 🏟️⚽
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The goal was to build a GenAI-enabled solution that enhances stadium operations and improves the overall tournament experience for fans, organizers, volunteers, and venue staff during global events like the FIFA World Cup 2026.
 
-## React Compiler
+Introducing AURA ✨
+Autonomous Unified Real-time Arena
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Imagine entering a stadium that doesn't just host a match…
 
-## Expanding the Oxlint configuration
+What if the stadium could understand crowd movement, personalize every fan's journey, predict problems before they happen, and assist thousands of people in real time?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+That's the idea behind AURA.
+
+"AURA doesn't manage stadiums. It understands every human inside them."
+
+AURA transforms traditional stadium infrastructure into an intelligent AI-powered ecosystem where the stadium itself becomes the interface.
+
+⚽ How AURA Works
+
+AURA uses a multi-agent Generative AI architecture where different AI agents collaborate like a football team:
+
+🧠 Crowd Captain Agent
+Predicts crowd congestion, manages movement patterns, and prevents overcrowding.
+
+🗺️ Route Playmaker Agent
+Generates optimized routes for fans inside the stadium.
+
+♿ Accessibility Guardian Agent
+Creates inclusive experiences with smart assistance and accessible navigation.
+
+🌱 Eco Defender Agent
+Optimizes resources and supports sustainable stadium operations.
+
+🛡️ Security Keeper Agent
+Supports real-time decision-making for safety and emergency situations.
+
+✨ Key Innovations inside AURA
+
+🏟️ AI Stadium Digital Twin
+A virtual intelligence layer that analyzes stadium activity and predicts operational challenges.
+
+🧬 Fan DNA Journey
+Personalized match-day plans based on each fan's needs, preferences, and accessibility requirements.
+
+🏃 Halftime Rush Predictor
+Predicts sudden crowd movement during halftime and helps organizers prepare resources.
+
+🌎 Multilingual AI Assistance
+Breaking language barriers for international tournaments.
+
+🏆 Memory Capsule AI
+Creating personalized digital memories from once-in-a-lifetime match experiences.
+
+🛠️ Tech Stack
+
+⚛️ React + Vite
+🎨 Tailwind CSS
+🏟️ Three.js
+✨ Framer Motion
+🤖 Gemini AI Architecture
+☁️ Vercel Deployment
+
+This project helped me explore how Generative AI can go beyond simple chatbots and become an intelligent layer powering real-world environments.
+
+From an idea → to a 3D stadium experience → to deployment, building AURA was an amazing learning experience 🚀
+
+🌐 Live Demo: https://aura-liard-beta.vercel.app/
+
+💻 GitHub: https://github.com/mimansa2005/AURA-Autonomous-Unified-Real-Time-Arena
+
+#PromptWars #GoogleAntigravity #GenerativeAI #GeminiAI #ArtificialIntelligence #ReactJS #ThreeJS #Hackathon #WomenInTech #BuildInPublic
+
+For images attach:
+
+PromptWars banner (this one)
+AURA stadium homepage screenshot
+AI agents/command center screenshot
+
+That order will tell the story visually: challenge → solution → execution ⚽✨
